@@ -10,9 +10,13 @@ const Clear = props =>{
         // subtractFeature(feature)
     }
     return(
-        <button onClick={()=>handleClear(feature)}>
+        <>
+        
+            <button onClick={()=>handleClear(feature)}>
             Clear All
         </button>
+        
+        </>
     );
 };
 

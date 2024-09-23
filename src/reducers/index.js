@@ -43,7 +43,7 @@ const reducer = (state = initialState, action) => {
     return {
         ...state, 
         car: {
-            ...state.car, features: state.car.features.map(()=> [])
+            ...state.car, features: state.car.features.splice()
             
         }
     }

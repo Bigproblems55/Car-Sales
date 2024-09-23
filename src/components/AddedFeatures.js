@@ -4,10 +4,10 @@ import AddedFeature from './AddedFeature';
 import Clear from './Clear';
 
 const AddedFeatures = props => {
-  const [hasfeature,setHasfeature] =useState(false);
+
   return (
     <div className="content">
-      {props.car.features.length && <Clear />}
+      {props.car.features.length && <Clear  />}
       <h6>Added features:</h6>
       {props.car.features.length ? (
         

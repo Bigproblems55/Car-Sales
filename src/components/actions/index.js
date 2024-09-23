@@ -16,6 +16,6 @@ export const clearAll = feature =>{
 
     return({
         type: 'CLEAR_ALL' ,
-        payload:feature
+        payload:[]
     })
 }
